@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-title>New apprentice for Bill Kill</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:400,700"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Lato, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#05194C">
+    <mj-section padding="30px 0 20px 0">
+      <mj-column>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="50px 0 0 0px" background-color="#05194C">
+      <mj-column>
+        <mj-image width="200px" src="https://i.imgur.com/uPYveHe.png" alt="Coffe cup" align="left" border="none"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 0px 0 0px" background-color="#05194C">
+      <mj-column width="100%">
+        <mj-text align="left" font-weight="600" font-size="30px" line-height="40px" color="#FFFFFF">{name} prosi o kontakt.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-style="dashed" border-color="#FFFFFF" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 20px 0px 25px" background-color="#05194C">
+      <mj-column width="50%">
+        <mj-text align="left" padding-top="10px" font-weight="600" padding="0px" color="#FFFFFF">Email: </mj-text>
+        <mj-text align="left" padding-top="10px" font-weight="600" padding="0px" color="#FFFFFF">Numer telefonu: </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="left" padding-top="10px" font-weight="600" padding="0px" color="#FFFFFF">{email} </mj-text>
+        <mj-text align="left" padding-top="10px" font-weight="600" padding="0px" color="#FFFFFF">{phone} </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-style="dashed" border-color="#FFFFFF" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 20px 0px 25px" background-color="#05194C">
+      <mj-column width="100%">
+        <mj-text align="left" padding-top="10px" font-weight="600" padding="0px" color="#FFFFFF">Wiadomosc: </mj-text>
+        <mj-text align="left" padding-top="10px" font-weight="500" padding="0px" color="#FFFFFF">{message}</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

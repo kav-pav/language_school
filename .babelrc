@@ -1,0 +1,39 @@
+{
+  "presets": ["next/babel"],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {
+              "modules": "commonjs"
+            }
+          }
+        ]
+      ]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "static": "./static",
+          "lib": "./lib",
+          "cmp": "./cmp",
+          "ui": "./ui",
+          "pages": "./pages"
+        }
+      }
+    ],
+    [
+      "styled-components",
+      {
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}

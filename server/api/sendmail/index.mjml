@@ -1,0 +1,37 @@
+<mjml>
+  <mj-head>
+    <mj-title>Dziekujemy za kontakt!</mj-title>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato:300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Lato, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#05194C">
+    <mj-section padding="30px 0 20px 0">
+      <mj-column>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="50px 0 0 0" background-color="#05194C">
+      <mj-column>
+        <mj-image width="300px" src="https://i.imgur.com/uPYveHe.png" alt="Coffe cup" align="center" border="none" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 0px 0 0px" background-color="#05194C">
+      <mj-column width="100%">
+        <mj-text align="center" font-weight="600" font-size="32px" line-height="40px" color="#fff">Wiadomść została dostarczona!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 20px 10px 20px" background-color="#05194C">
+      <mj-column width="70%">
+        <mj-text align="center" padding-top="10px" font-weight="500" padding="0px" color="#fff">{name}, dziękujemy za kontakt z nami. Odpowiemy na wszystkie Twoje pytania w najbliższej możliwej chwili. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 0 20px 0">
+      <mj-column>
+        <mj-text align="center" color="#fff" font-size="11px">Klingenberggt 7b, / 0161 Oslo / Norway <br>+47 2142 0101</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
