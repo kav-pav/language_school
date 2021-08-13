@@ -30,7 +30,7 @@
     "google-spreadsheet": "^2.0.8",
     "https": "^1.0.0",
     "mjml": "^4.5.1",
-    "next": "^9.1.7",
+    "next": "^11.1.0",
     "node-fetch": "^2.6.0",
     "nodemailer": "^6.4.2",
     "path": "^0.12.7",
